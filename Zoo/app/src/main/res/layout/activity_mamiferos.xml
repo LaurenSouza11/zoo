@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MamiferosActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAMÍFEROS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imgMamiferos"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/mamiferos"
+        tools:srcCompat="@drawable/mamiferos" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os mamíferos são talvez o grupo mais conhecido, pela variedade de espécies nele (morcegos, baleias, gatos, o ser humano e outros!). \nO que os difere dos outros grupos é a presença de pêlos, temperatura interna constante, produção de leite e a capacidade de brincar! \n\nConheça alguns dos mamíferos do zoológico! "
+        android:textAlignment="viewStart" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtMamiferosMico"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/mico150"
+            tools:src="@drawable/mico150"
+            tools:srcCompat="@drawable/mico150" />
+
+        <ImageButton
+            android:id="@+id/imgbtMamiferosElefante"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/elef150"
+            tools:srcCompat="@drawable/elef150" />
+
+        <ImageButton
+            android:id="@+id/imgbtMamiferosGuara"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/guara150"
+            tools:srcCompat="@drawable/guara150" />
+    </LinearLayout>
+
+
+</LinearLayout>

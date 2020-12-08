@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RepteisActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RÉPTEIS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imgRepteis"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/repteis"
+        tools:srcCompat="@drawable/repteis" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os primeiros vertebrados adaptados a viver em lugares secos, os répteis surgiram há cerca de 300 milhões de anos e possuem características muito semelhantes aos dinossauros (com exceção do tamanho!). \n\nConheça alguns dos répteis do zoológico!"
+        android:textAlignment="viewStart" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtRepteisCoral"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/coral150"
+            tools:srcCompat="@drawable/coral150" />
+
+        <ImageButton
+            android:id="@+id/imgbtRepteisJacare"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/jacare150"
+            tools:srcCompat="@drawable/jacare150" />
+
+        <ImageButton
+            android:id="@+id/imgbtRepteisIguana"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/iguana150"
+            tools:srcCompat="@drawable/iguana150" />
+    </LinearLayout>
+
+</LinearLayout>
